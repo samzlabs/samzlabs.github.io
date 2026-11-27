@@ -8,3 +8,5 @@
 
 **Privacy URLs for Play Console:** `https://samzlabs.github.io/privacy/rimota/` and `https://samzlabs.github.io/privacy/languardpro/`
 Email, colours (top of `assets/css/style.css`) and text are all plain files - no build step.
+
+**Terms:** `terms/rimota/index.html` is a hand-made standalone page (kept exactly as published) - the page builder does not touch it.

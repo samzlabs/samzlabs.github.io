@@ -20,7 +20,7 @@
         '<a class="btn ghost" href="' + esc(a.privacy) + '">Privacy policy</a></div></article>';
     }).join("");
   }
-  if (plist) plist.innerHTML = apps.map(function (a) { return '<a href="' + esc(a.privacy) + '">' + esc(a.short) + " privacy</a>"; }).join("");
+  if (plist) plist.innerHTML = apps.map(function (a) { return '<a href="' + esc(a.privacy) + '">' + esc(a.short) + " privacy</a>" + (a.terms ? '<a href="' + esc(a.terms) + '">' + esc(a.short) + " terms</a>" : ""); }).join("");
   if (count) count.textContent = apps.length + (apps.length === 1 ? " app" : " apps");
   document.querySelectorAll("[data-email]").forEach(function (el) {
     var e = window.SAMZLAB_EMAIL; el.textContent = e; el.setAttribute("href", "mailto:" + e);

@@ -12,7 +12,8 @@ window.SAMZLAB_APPS = [
     tagline: "Remote for every screen.",
     description: "A fast, beautiful remote for Android TV, Google TV and Android boxes - with screen mirroring, apps, files and a PC remote. No account, no ads, no cloud.",
     tags: ["Android TV", "Screen mirror", "PC remote", "Free + Pro"],
-    privacy: "privacy/rimota/"
+    privacy: "privacy/rimota/",
+    terms: "terms/rimota/"
   },
   {
     name: "LanGuard Pro: OpenWrt Tools",
